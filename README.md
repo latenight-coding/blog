@@ -108,7 +108,7 @@
 * 10분 정도 분량
 
 
-# Rule by JS 
+# 그라운드 룰 by JS 
     class LateNightCoding {
         constructor(){
             this.name = 'latenigntcoding';
