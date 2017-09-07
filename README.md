@@ -125,12 +125,12 @@
         }
         appendMember(newMember) {
             const approvalInMembers = this.members.filter((member) => {
-            // 신규 멤버에 대한 기존 멤버의 동의 
-            return member && newMember
+                // 신규 멤버에 대한 기존 멤버의 동의 
+                return member && newMember
             }).length;
             if (approvalInMembers === this.membersNumber) {
-            this.members.push(newMember);
-            return true;
+                this.members.push(newMember);
+                return true;
             }
             return false;
         }
@@ -139,9 +139,9 @@
         }
         joinSpeaker(member) {
             if (member && this.nextWeekSpeaker.length < 4) {
-            this.nextWeekSpeaker.push(member);
+                this.nextWeekSpeaker.push(member);
             } else {
-            console.log('다음주에 지원해주세요.');
+                console.log('다음주에 지원해주세요.');
             }
         }
     }
