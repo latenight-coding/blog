@@ -146,7 +146,7 @@
         }
     }
     const lateNightCoding = new LateNightCoding();
-    lateNightCoding.append('배철민');
+    lateNightCoding.appendMember('배철민');
     //extend 언제든지 가능
 
 
